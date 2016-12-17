@@ -6,7 +6,7 @@ using TShockAPI;
 
 namespace BlockLogin
 {
-	[ApiVersion(1, 25)]
+	[ApiVersion(2, 0)]
     public class BlockLogin : TerrariaPlugin
     {
         public override Version Version
@@ -19,7 +19,7 @@ namespace BlockLogin
         }
         public override string Author
         {
-            get { return "Colin"; }
+            get { return "Colin - Maintained by Bippity"; }
         }
         public override string Description
         {
